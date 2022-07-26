@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640B4378287EB120008DE48F /* Time Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640B4377287EB120008DE48F /* Time Picker.swift */; };
+		640B437A287EBC1E008DE48F /* Alarm Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640B4379287EBC1E008DE48F /* Alarm Clock.swift */; };
+		640B437E287ED678008DE48F /* ClockTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640B437D287ED678008DE48F /* ClockTitleViewController.swift */; };
 		642E5D23287BD7EB00AA057B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E5D22287BD7EB00AA057B /* AppDelegate.swift */; };
 		642E5D25287BD7EB00AA057B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E5D24287BD7EB00AA057B /* SceneDelegate.swift */; };
 		642E5D27287BD7EB00AA057B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E5D26287BD7EB00AA057B /* ViewController.swift */; };
 		642E5D2A287BD7EB00AA057B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642E5D28287BD7EB00AA057B /* Main.storyboard */; };
 		642E5D2C287BD7EE00AA057B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642E5D2B287BD7EE00AA057B /* Assets.xcassets */; };
 		642E5D2F287BD7EE00AA057B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642E5D2D287BD7EE00AA057B /* LaunchScreen.storyboard */; };
+		642E5D37287BDBD700AA057B /* TimeZonesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E5D36287BDBD700AA057B /* TimeZonesTableViewController.swift */; };
+		642E5D3B287C01FE00AA057B /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642E5D3A287C01FE00AA057B /* TimeTableViewCell.swift */; };
+		643AF20E287C32610033C313 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AF20D287C32610033C313 /* AlarmViewController.swift */; };
+		643AF210287C342C0033C313 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AF20F287C342C0033C313 /* AlarmTableViewCell.swift */; };
+		643AF212287C35410033C313 /* AlarmSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AF211287C35410033C313 /* AlarmSettingTableViewController.swift */; };
+		64B0CA6828815F2E00F11AA7 /* ToneSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0CA6728815F2E00F11AA7 /* ToneSettingTableViewController.swift */; };
+		64C7156D2887C7C500B23986 /* CountDownTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C7156C2887C7C500B23986 /* CountDownTableViewController.swift */; };
+		64C7156F2887FA1200B23986 /* Count Down Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C7156E2887FA1200B23986 /* Count Down Timer.swift */; };
+		64CDD5BE288641D6003CEDD7 /* StopClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CDD5BD288641D6003CEDD7 /* StopClockViewController.swift */; };
+		64CDD5C028868907003CEDD7 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CDD5BF28868907003CEDD7 /* RecordTableViewCell.swift */; };
+		64EAEECB2885894F0024D084 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EAEECA2885894F0024D084 /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640B4377287EB120008DE48F /* Time Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time Picker.swift"; sourceTree = "<group>"; };
+		640B4379287EBC1E008DE48F /* Alarm Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm Clock.swift"; sourceTree = "<group>"; };
+		640B437D287ED678008DE48F /* ClockTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTitleViewController.swift; sourceTree = "<group>"; };
 		642E5D1F287BD7EB00AA057B /* clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		642E5D22287BD7EB00AA057B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		642E5D24287BD7EB00AA057B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,17 @@
 		642E5D2B287BD7EE00AA057B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		642E5D2E287BD7EE00AA057B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642E5D30287BD7EE00AA057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642E5D36287BDBD700AA057B /* TimeZonesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZonesTableViewController.swift; sourceTree = "<group>"; };
+		642E5D3A287C01FE00AA057B /* TimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		643AF20D287C32610033C313 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		643AF20F287C342C0033C313 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		643AF211287C35410033C313 /* AlarmSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingTableViewController.swift; sourceTree = "<group>"; };
+		64B0CA6728815F2E00F11AA7 /* ToneSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneSettingTableViewController.swift; sourceTree = "<group>"; };
+		64C7156C2887C7C500B23986 /* CountDownTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownTableViewController.swift; sourceTree = "<group>"; };
+		64C7156E2887FA1200B23986 /* Count Down Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Down Timer.swift"; sourceTree = "<group>"; };
+		64CDD5BD288641D6003CEDD7 /* StopClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopClockViewController.swift; sourceTree = "<group>"; };
+		64CDD5BF28868907003CEDD7 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		64EAEECA2885894F0024D084 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MusicViewController.swift; path = ../MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,10 @@
 		642E5D21287BD7EB00AA057B /* clock */ = {
 			isa = PBXGroup;
 			children = (
+				64430154288FD8380009FB1D /* Stop Clock */,
+				64430153288FD8250009FB1D /* Timer */,
+				64EAEEC9288588EA0024D084 /* National Time */,
+				64EAEEC8288588B60024D084 /* Alarm Clock */,
 				642E5D22287BD7EB00AA057B /* AppDelegate.swift */,
 				642E5D24287BD7EB00AA057B /* SceneDelegate.swift */,
 				642E5D26287BD7EB00AA057B /* ViewController.swift */,
@@ -65,6 +97,48 @@
 				642E5D30287BD7EE00AA057B /* Info.plist */,
 			);
 			path = clock;
+			sourceTree = "<group>";
+		};
+		64430153288FD8250009FB1D /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				64C7156E2887FA1200B23986 /* Count Down Timer.swift */,
+				64C7156C2887C7C500B23986 /* CountDownTableViewController.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		64430154288FD8380009FB1D /* Stop Clock */ = {
+			isa = PBXGroup;
+			children = (
+				64CDD5BF28868907003CEDD7 /* RecordTableViewCell.swift */,
+				64CDD5BD288641D6003CEDD7 /* StopClockViewController.swift */,
+			);
+			path = "Stop Clock";
+			sourceTree = "<group>";
+		};
+		64EAEEC8288588B60024D084 /* Alarm Clock */ = {
+			isa = PBXGroup;
+			children = (
+				64EAEECA2885894F0024D084 /* MusicViewController.swift */,
+				640B4379287EBC1E008DE48F /* Alarm Clock.swift */,
+				643AF211287C35410033C313 /* AlarmSettingTableViewController.swift */,
+				643AF20F287C342C0033C313 /* AlarmTableViewCell.swift */,
+				643AF20D287C32610033C313 /* AlarmViewController.swift */,
+				64B0CA6728815F2E00F11AA7 /* ToneSettingTableViewController.swift */,
+			);
+			path = "Alarm Clock";
+			sourceTree = "<group>";
+		};
+		64EAEEC9288588EA0024D084 /* National Time */ = {
+			isa = PBXGroup;
+			children = (
+				640B437D287ED678008DE48F /* ClockTitleViewController.swift */,
+				640B4377287EB120008DE48F /* Time Picker.swift */,
+				642E5D3A287C01FE00AA057B /* TimeTableViewCell.swift */,
+				642E5D36287BDBD700AA057B /* TimeZonesTableViewController.swift */,
+			);
+			path = "National Time";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +213,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				642E5D27287BD7EB00AA057B /* ViewController.swift in Sources */,
+				640B4378287EB120008DE48F /* Time Picker.swift in Sources */,
 				642E5D23287BD7EB00AA057B /* AppDelegate.swift in Sources */,
+				643AF212287C35410033C313 /* AlarmSettingTableViewController.swift in Sources */,
+				643AF20E287C32610033C313 /* AlarmViewController.swift in Sources */,
+				642E5D37287BDBD700AA057B /* TimeZonesTableViewController.swift in Sources */,
 				642E5D25287BD7EB00AA057B /* SceneDelegate.swift in Sources */,
+				640B437A287EBC1E008DE48F /* Alarm Clock.swift in Sources */,
+				64CDD5C028868907003CEDD7 /* RecordTableViewCell.swift in Sources */,
+				643AF210287C342C0033C313 /* AlarmTableViewCell.swift in Sources */,
+				64EAEECB2885894F0024D084 /* MusicViewController.swift in Sources */,
+				64CDD5BE288641D6003CEDD7 /* StopClockViewController.swift in Sources */,
+				640B437E287ED678008DE48F /* ClockTitleViewController.swift in Sources */,
+				64B0CA6828815F2E00F11AA7 /* ToneSettingTableViewController.swift in Sources */,
+				64C7156D2887C7C500B23986 /* CountDownTableViewController.swift in Sources */,
+				642E5D3B287C01FE00AA057B /* TimeTableViewCell.swift in Sources */,
+				64C7156F2887FA1200B23986 /* Count Down Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +378,7 @@
 				DEVELOPMENT_TEAM = Z4822F8J4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = clock/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "要求使用媒體";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +407,7 @@
 				DEVELOPMENT_TEAM = Z4822F8J4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = clock/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "要求使用媒體";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
